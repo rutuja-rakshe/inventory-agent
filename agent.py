@@ -9,7 +9,7 @@ from groq import Groq
 from db import build_database
 from sql_tool import run_readonly_query
 
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 MAX_TOOL_ROUNDS = 5
 
 SYSTEM_PROMPT = """You are an inventory management assistant for a warehouse business.
